@@ -1,0 +1,16 @@
+git init --- to intialize
+git status -- to check the status of it
+git add . -- to add the all files
+git add filename filename
+git commit -m "add these file or that file like that" -- add comment to your changes
+
+// for checking user details
+git config --global user.name
+git config --global user.email
+
+// for changing the detail use the same cmd & after user.name in double quotes "veerababu t". same as for email also
+git config --global user.name "veerababu t"
+
+//How to use Visual Studio Code as default editor for git?
+git config --global core.editor "code --wait"
+git config --global e --- to verify that our cmd works or not.
