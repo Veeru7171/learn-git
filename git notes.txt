@@ -13,4 +13,28 @@ git config --global user.name "veerababu t"
 
 //How to use Visual Studio Code as default editor for git?
 git config --global core.editor "code --wait"
-git config --global e --- to verify that our cmd works or not.
+git config --global -e --- to verify that our cmd works or not.
+
+git log --oneline  --- to show the commits in one line
+
+pwd --- present working directory
+cd  --- current directory
+ls  --- list the folders
+touch folder name --- to create the folder in cmd prompt
+ls -la --- It's shows the long listing of a files & shows hidden files also.
+
+touch .gitignore --- to ignore some files for security reasons
+go in to .gitignore file add the files names that you want ignore
+what if you are working in a project that has so much num of files. sometimes It's not possible to track of everything & add in ignore file right for this there's a solution in oneline
+search gitignore generator open and search for ex node that will you common ignore files cmd just copy and paste.
+
+git branch -- It'll give the branches that are present
+git branch some_branch_name - It'll create a branch with specific name
+
+git checkout branchName -- to open the branch
+git switch branchName   -- to open or switch to that branch
+
+git switch -c branchName   --- to create & switch that branch
+git checkout -b branchName --- to create & open the new branch
+
+git merge branchName --- to merge the sub branches code to main branch. "master"
