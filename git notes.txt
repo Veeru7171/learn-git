@@ -38,3 +38,21 @@ git switch -c branchName   --- to create & switch that branch
 git checkout -b branchName --- to create & open the new branch
 
 git merge branchName --- to merge the sub branches code to main branch. "master"
+git diff  --- It's used to differntiate b/w the same file with different timelines in staging.
+
+It will open vim terminal. .wq or q to exit from that terminal.
+
+// we can also check the commits between two by adding hashkey & In branches also
+git diff hashkey hashkey || git diff hashkey..hashkey
+git diff branchName..branchName
+
+git stash  --- It's used stash our changes into one file or folder & use it whenever needed
+git stash pop  --- to retrieve the old changes that we made in the stash
+git stash list --- to list the stashed ones
+git stash apply stashName || stash{0} --- to retrieve which stash changes or stash file that required among all.
+
+git log --oneline
+git checkout hashkey  -- to move the head to particular commit
+git checkout master || mainBranch --- to come back to prev changes or to latest commit
+git reflog  -- to move the branch to latest commit
+git checkout Head~2  -- to move the head 2 commits back
