@@ -56,3 +56,13 @@ git checkout hashkey  -- to move the head to particular commit
 git checkout master || mainBranch --- to come back to prev changes or to latest commit
 git reflog  -- to move the branch to latest commit
 git checkout Head~2  -- to move the head 2 commits back
+
+git commit -am "commit msg" -- It's a shortcut way of adding & commiting at same time
+
+git rebase master --- you need to do in sub branches & don't do on the main or master branch
+It's actually unnecessary commit like merge b/w sub branch & main or master branch. we can show all the commits in one line. "graph"
+when you got conflicts in rebase time. realx read the hints & do resolve carefully.
+
+generate ssh key & add it in. github, vscode as well
+
+git branch -M main --- It's used the change the branch name of master to main.
