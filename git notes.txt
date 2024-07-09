@@ -66,3 +66,22 @@ when you got conflicts in rebase time. realx read the hints & do resolve careful
 generate ssh key & add it in. github, vscode as well
 
 git branch -M main --- It's used the change the branch name of master to main.
+git remote -v --- to give the remote link. If it's present
+git remote add name url --- example
+git remove add origin https://github.com/Veeru7171/learn-git.git
+
+git remote rename oldname newname -- to change the origin to thor or superwomen
+git remote remove name --- to remove the origin name
+
+git push origin main  --- to push the code to remote repo
+//but there's a catch whenever you want add some more changes and push to the same remote using git push It won't work because we didn't set upstream.
+//to avoid that problem we must use for the first time
+git push -u origin main --- -u is the setup for upstream & then you can use git push for later changes
+
+git clone url --- this is used to clone the existed repo into local with https
+
+git pull  --- get info & add into my work
+git fetch --- get info but didn't add anything to my work
+
+git pull --- It's combination of git fetch & git merge.
+git pull origin main --- changes will be merged to main
